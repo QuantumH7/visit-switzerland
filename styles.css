@@ -46,7 +46,7 @@ body {
   min-height: 76px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 0.9rem;
   padding: 0.65rem 0.8rem 0.65rem 1.15rem;
   border-radius: 20px;
@@ -94,6 +94,7 @@ body {
   gap: 0.35rem;
   flex-wrap: nowrap;
   align-items: center;
+  margin-left: auto;
   padding: 0.25rem;
   border-radius: 999px;
   border: 1px solid rgba(163, 183, 206, 0.42);
