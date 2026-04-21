@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit Switzerland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Manrope:wght@400;500;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" id="home">
+      <div class="wrap nav-wrap">
+        <a class="brand" href="#home">Visit Switzerland</a>
+        <nav class="menu">
+          <a href="#home">Home</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#experiences">Experiences</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#plan">Plan</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="wrap hero-content">
+        <p class="kicker">2026 Curated Escape</p>
+        <h1>Welcome to Switzerland, where every view tells a story.</h1>
+        <p class="hero-copy">Glacier lakes, cinematic train lines, and mountain towns that look painted by hand. Explore a more modern Swiss journey.</p>
+        <div class="hero-actions">
+          <a href="#gallery" class="btn btn-solid">See Gallery</a>
+          <a href="#plan" class="btn btn-ghost">Build Itinerary</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics wrap">
+      <article>
+        <h3>1,500+</h3>
+        <p>Alpine Lakes</p>
+      </article>
+      <article>
+        <h3>48</h3>
+        <p>Peaks above 4,000m</p>
+      </article>
+      <article>
+        <h3>7,000+</h3>
+        <p>Mountain Summits</p>
+      </article>
+      <article>
+        <h3>26</h3>
+        <p>Cantons to Explore</p>
+      </article>
+    </section>
+
+    <section class="section wrap" id="destinations">
+      <div class="section-head">
+        <p class="kicker">Top Stops</p>
+        <h2>Destinations With Distinct Energy</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80" alt="Zermatt mountain town">
+          <div>
+            <h3>Zermatt</h3>
+            <p>Car-free streets, iconic Matterhorn drama, and world-class mountain hotels.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=1200&q=80" alt="Interlaken landscape">
+          <div>
+            <h3>Interlaken</h3>
+            <p>Adventure hub between two lakes, with aerial views that feel unreal.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1687291336236-b86b9f4b1ffa?auto=format&fit=crop&w=1200&q=80" alt="Lucerne bridge and lake">
+          <div>
+            <h3>Lucerne</h3>
+            <p>Historic bridges, calm waterfront nights, and elegant old-town architecture.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="experiences">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Signature Moments</p>
+          <h2>Experiences You Remember for Years</h2>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-card">
+            <img src="https://images.unsplash.com/photo-1517783999520-f068d7431a60?auto=format&fit=crop&w=1200&q=80" alt="Panoramic train through Swiss mountains">
+            <div class="experience-content">
+              <h3>Panoramic Rail Routes</h3>
+              <p>Ride through valleys, viaducts, and glacier corridors on legendary Swiss lines.</p>
+            </div>
+          </article>
+          <article class="experience-card">
+            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1200&q=80" alt="Hikers in the Swiss Alps">
+            <div class="experience-content">
+              <h3>High-Alpine Hiking</h3>
+              <p>From flowered meadows to snow-lined viewpoints, trails for every pace.</p>
+            </div>
+          </article>
+          <article class="experience-card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Sunset by a Swiss lake">
+            <div class="experience-content">
+              <h3>Lakefront Evenings</h3>
+              <p>Golden-hour walks, quiet marinas, and postcard sunsets over crystal waters.</p>
+            </div>
+          </article>
+          <article class="experience-card">
+            <img src="https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&w=1200&q=80" alt="Winter skiing in the Alps">
+            <div class="experience-content">
+              <h3>Winter Sports Culture</h3>
+              <p>Powder slopes, spa recovery, and mountain villages glowing after dark.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="gallery">
+      <div class="section-head">
+        <p class="kicker">Photo Collection</p>
+        <h2>Explore Switzerland Through Photos</h2>
+      </div>
+
+      <input type="radio" name="filter" id="f-all" checked>
+      <input type="radio" name="filter" id="f-mountains">
+      <input type="radio" name="filter" id="f-lakes">
+      <input type="radio" name="filter" id="f-cities">
+
+      <div class="filters">
+        <label for="f-all">All</label>
+        <label for="f-mountains">Mountains</label>
+        <label for="f-lakes">Lakes</label>
+        <label for="f-cities">Cities</label>
+      </div>
+
+      <div class="masonry">
+        <a class="shot mountains" href="#shot-1"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1400&q=80" alt="Alps at sunrise"></a>
+        <a class="shot lakes" href="#shot-2"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80" alt="Lake and hills"></a>
+        <a class="shot cities" href="#shot-3"><img src="https://images.unsplash.com/photo-1444723121867-7a241cacace9?auto=format&fit=crop&w=1400&q=80" alt="Swiss city skyline"></a>
+        <a class="shot mountains" href="#shot-4"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80" alt="Snowy mountain peaks"></a>
+        <a class="shot lakes" href="#shot-5"><img src="https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?auto=format&fit=crop&w=1400&q=80" alt="Boat on mountain lake"></a>
+        <a class="shot cities" href="#shot-6"><img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1400&q=80" alt="Old town evening"></a>
+        <a class="shot mountains" href="#shot-7"><img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1400&q=80" alt="Alpine ridge"></a>
+        <a class="shot lakes" href="#shot-8"><img src="https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?auto=format&fit=crop&w=1400&q=80" alt="Emerald lake"></a>
+      </div>
+    </section>
+
+    <section class="section alt" id="plan">
+      <div class="wrap plan-grid">
+        <div>
+          <p class="kicker">Plan Your Trip</p>
+          <h2>Build Your Swiss Week</h2>
+          <p class="plan-copy">Use this guide block as your starter template, then customize by season and pace.</p>
+          <ol>
+            <li>Base in Zurich or Lucerne</li>
+            <li>Add 2 mountain regions</li>
+            <li>Reserve a scenic rail day</li>
+            <li>Keep one flexible weather day</li>
+          </ol>
+        </div>
+        <form class="trip-card">
+          <label>Arrival<input type="date"></label>
+          <label>Departure<input type="date"></label>
+          <label>Travelers
+            <select>
+              <option>2 Travelers</option>
+              <option>3 Travelers</option>
+              <option>4 Travelers</option>
+            </select>
+          </label>
+          <label>Focus
+            <select>
+              <option>Nature + Hiking</option>
+              <option>Cities + Food</option>
+              <option>Winter + Skiing</option>
+            </select>
+          </label>
+          <button type="button">Save Trip Outline</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap footer-grid">
+        <div>
+          <h3 class="footer-brand">Alpine Atlas</h3>
+          <p class="footer-copy">Your guide to unforgettable journeys across Switzerland's mountains, lakes, and timeless towns.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#experiences">Experiences</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#plan">Plan Your Trip</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>hello@alpineatlas.com</li>
+            <li>+41 44 000 00 00</li>
+            <li>Zurich, Switzerland</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">X / Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <p>&copy; 2026 Alpine Atlas. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
